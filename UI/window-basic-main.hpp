@@ -265,6 +265,7 @@ private:
 	QPointer<QAction> sysTrayStream;
 	QPointer<QAction> sysTrayRecord;
 	QPointer<QAction> sysTrayReplayBuffer;
+	QPointer<QAction> sysTrayVirtualCam;
 	QPointer<QAction> showHide;
 	QPointer<QAction> exit;
 	QPointer<QMenu> trayMenu;
@@ -960,6 +961,7 @@ private slots:
 	// Source Context Buttons
 	void on_sourcePropertiesButton_clicked();
 	void on_sourceFiltersButton_clicked();
+	void on_sourceInteractButton_clicked();
 
 	void on_autoConfigure_triggered();
 	void on_stats_triggered();
